@@ -1,0 +1,19 @@
+.hero-flex {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.button-group > .btn {
+    display: block;
+    max-width: 500px;
+    margin-bottom: 20px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.message {
+    margin-top: 50px;
+}

@@ -5,7 +5,7 @@ import './index.scss';
 
 export default function Layout({ children }) {
   return (
-    <div>
+    <div className="container">
       <Nav />
       <main id="content">{children}</main>
     </div>

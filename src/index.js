@@ -7,7 +7,7 @@ export const reducers = {
 };
 
 export const initialState = {
-  title: 'Neo Example App'
+  title: 'Lit Bot'
 };
 
 export default App({ reducers, initialState, Layout, routes });

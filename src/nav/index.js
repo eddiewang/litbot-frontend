@@ -6,9 +6,9 @@ import routes from '../routes';
 const mapStateToProps = state => ({ title: state.get('title') });
 
 export let Nav = ({ title }) => (
-  <nav className="navbar navbar-full navbar-dark bg-inverse">
+  <nav className="navbar bg-faded navbar-light navbar-fixed-bottom">
     <a className="navbar-brand" href="/">{title}</a>
-    <div className="nav navbar-nav">
+    <div className="nav navbar-nav pull-xs-right">
       {routes.map(r => <Link className="nav-item nav-link" key={r.path} to={r.path}>{r.title}</Link>)}
     </div>
   </nav>
